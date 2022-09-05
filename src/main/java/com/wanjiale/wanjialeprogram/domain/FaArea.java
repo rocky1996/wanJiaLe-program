@@ -1,12 +1,10 @@
 package com.wanjiale.wanjialeprogram.domain;
 
-import jdk.nashorn.internal.ir.IdentNode;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import javax.persistence.criteria.CriteriaBuilder;
 
 @AllArgsConstructor
 @NoArgsConstructor
