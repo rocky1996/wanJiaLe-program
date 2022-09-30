@@ -37,8 +37,8 @@ public class JacksonUtil {
         return JSONUtil.toBean(str, tTypeReference, true);
     }
 
-    public static boolean isJSON2(String str) {
-        boolean result = false;
+    public static boolean judgeJson(String str) {
+        boolean result;
         try {
             Object obj = JSON.parse(str);
             result = true;
